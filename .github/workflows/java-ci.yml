@@ -32,5 +32,5 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: eco-dev-${{ steps.vars.outputs.sha_short }}
+          name: ecoskills-dev-${{ steps.vars.outputs.sha_short }}
           path: build/libs
